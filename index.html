@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Africa Social Entrepreneurs Foundation (ASEF)</title>
+<meta name="description" content="ASEF champions social impact investment to improve the livelihoods of rural communities in Africa through capacity building and technology transfer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="ASEF home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="brand-name">ASEF</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#pillars">Five pillars</a></li>
+      <li><a href="#approach">How we work</a></li>
+      <li><a href="#objectives">Objectives</a></li>
+      <li><a href="#team">Our officials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Social impact investment that reaches rural Africa.</h1>
+        <p class="lead">Africa Social Entrepreneurs Foundation builds entrepreneurial skills among youth, women and people with special needs, and empowers men for the betterment of society.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#pillars">Explore our five pillars</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <p class="chips-label">Jump to a pillar</p>
+        <div class="chips" id="heroBars" role="group" aria-label="Jump to a pillar">
+          <button class="chip c1" data-pillar="0">Environment</button>
+          <button class="chip c2" data-pillar="1">Education</button>
+          <button class="chip c3" data-pillar="2">Gender</button>
+          <button class="chip c4" data-pillar="3">Agri-business</button>
+          <button class="chip c5" data-pillar="4">Digital</button>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="images/hero.jpg" alt="Farmers working together in a green field" width="1400" height="1750" fetchpriority="high">
+      </figure>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <h2>Transforming lives and livelihoods across Africa</h2>
+        <p class="lead">ASEF aims to empower and transform lives through capacity building and technology transfer, providing pathways out of poverty and spurring economic growth.</p>
+        <figure class="about-photo">
+          <img src="images/capacity.avif" alt="A woman planting in a field during the day" width="1000" height="750" loading="lazy">
+        </figure>
+        <p class="commit">Our work aims to equip citizens with the tools and knowledge to combat climate change, and to inspire the next generation of climate leaders.</p>
+      </div>
+      <div class="vm">
+        <h3>Our vision</h3>
+        <p>Championing Social Impact Investment to improve the livelihood of rural communities in Africa.</p>
+        <hr class="divider">
+        <h3>Our mission</h3>
+        <p>To alleviate poverty, improve food security, provide good governance and contribute to environmental sustainability.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pillars" id="pillars">
+    <div class="wrap">
+      <div class="pillars-head">
+        <h2>Our five pillars</h2>
+        <p>Each pillar is a route out of poverty and toward self-reliance. Select one to read more.</p>
+      </div>
+      <div class="pillar-row" id="pillarRow">
+        <article class="pillar active" data-tone="1">
+          <img class="pillar-img" src="images/tree.jpg" alt="Young trees growing in a plantation under a blue sky" width="800" height="1000" loading="lazy">
+          <button class="pillar-btn" id="ph1" aria-expanded="true" aria-controls="pb1">
+            <span class="pillar-index" aria-hidden="true">01</span>
+            <span class="pillar-short" aria-hidden="true">Environment</span>
+            <span class="pillar-title">Environment, climate change and sustainability</span>
+          </button>
+          <div class="pillar-body" id="pb1" role="region" aria-labelledby="ph1">
+            <p>We promote tree planting for carbon credit and income generation, energy conservation through new and modern technologies, and sustainability in businesses and organisations.</p>
+            <p>We encourage a whole mindset of responsibility in support of sustainability. The aim is for the beneficiaries of your Corporate Social Responsibility to reach places of dignity and self-reliance, and ideally to be able to offer CSR to others in turn.</p>
+          </div>
+        </article>
+        <article class="pillar" data-tone="2">
+          <img class="pillar-img" src="images/img.jpg" alt="Pupils at work in a classroom" width="800" height="1000" loading="lazy">
+          <button class="pillar-btn" id="ph2" aria-expanded="false" aria-controls="pb2">
+            <span class="pillar-index" aria-hidden="true">02</span>
+            <span class="pillar-short" aria-hidden="true">Education</span>
+            <span class="pillar-title">Education and governance</span>
+          </button>
+          <div class="pillar-body" id="pb2" role="region" aria-labelledby="ph2">
+            <p>We promote and upgrade learning materials so they suit the needs of the current generation, with a focus on entrepreneurship skills.</p>
+            <p>We build the capacity of teachers, farmers and business communities in finance, HR, tax and strategic planning, including school boards, and we support less fortunate people to pursue education.</p>
+          </div>
+        </article>
+        <article class="pillar" data-tone="3">
+          <img class="pillar-img" src="images/empowerment.avif" alt="A woman at work in her small business" width="800" height="1000" loading="lazy">
+          <button class="pillar-btn" id="ph3" aria-expanded="false" aria-controls="pb3">
+            <span class="pillar-index" aria-hidden="true">03</span>
+            <span class="pillar-short" aria-hidden="true">Gender</span>
+            <span class="pillar-title">Gender empowerment</span>
+          </button>
+          <div class="pillar-body" id="pb3" role="region" aria-labelledby="ph3">
+            <p>We promote gender equality and empowerment for economic growth.</p>
+            <p>In emerging economies where job opportunities are limited, the ability of women and youth to earn an income often depends on their ability to start a business. If policy makers prioritise investment in youth and women's economic power, the global economy could grow by an additional 7% of GDP, or US$10 trillion, by 2030.</p>
+          </div>
+        </article>
+        <article class="pillar" data-tone="4">
+          <img class="pillar-img" src="images/agribusiness.avif" alt="A woman holding a handful of grain" width="800" height="1000" loading="lazy">
+          <button class="pillar-btn" id="ph4" aria-expanded="false" aria-controls="pb4">
+            <span class="pillar-index" aria-hidden="true">04</span>
+            <span class="pillar-short" aria-hidden="true">Agri-business</span>
+            <span class="pillar-title">Agri-business and value addition</span>
+          </button>
+          <div class="pillar-body" id="pb4" role="region" aria-labelledby="ph4">
+            <p>We promote agri-business that uses modern technologies, applying a whole value chain approach from farm to market.</p>
+          </div>
+        </article>
+        <article class="pillar" data-tone="5">
+          <img class="pillar-img" src="images/SmartFarming.jpg" alt="A woman at a fruit stand holding a mobile phone" width="800" height="1000" loading="lazy">
+          <button class="pillar-btn" id="ph5" aria-expanded="false" aria-controls="pb5">
+            <span class="pillar-index" aria-hidden="true">05</span>
+            <span class="pillar-short" aria-hidden="true">Digital</span>
+            <span class="pillar-title">Digitisation and financial inclusion</span>
+          </button>
+          <div class="pillar-body" id="pb5" role="region" aria-labelledby="ph5">
+            <p>We promote the use of technology in farming and in business enterprises, so more people can take part in the financial system and grow their income.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="stat" aria-label="Economic opportunity">
+    <div class="wrap stat-grid">
+      <div class="stat-figure">US$10 trillion<small>added to the global economy by 2030</small></div>
+      <p>That is the potential gain, about 7% of GDP, if policy makers prioritise investment in the economic power of youth and women. It is why gender empowerment is one of our five pillars.</p>
+    </div>
+  </section>
+
+  <section class="approach" id="approach">
+    <div class="wrap">
+      <div class="approach-grid">
+      <div>
+        <h2>How we work with partners</h2>
+        <p class="lead">We help our partners move from knowing their goal to knowing how to reach it.</p>
+        <p>We combine global expertise in health, education and technology transfer with analytic rigour, practical support for decision-making and implementation, and access to peer problem-solving networks.</p>
+        <p>Together with our partners, we build self-sustaining systems that serve everyone and deliver lasting results. Then we share what we learn so others can achieve results for development too.</p>
+      </div>
+      <div>
+        <p>We collaborate with change agents around the world, in both the public and private sectors, to create strong systems that support communities toward healthy, educated lives and an informed future generation.</p>
+        <p class="partner-list-label">Our partners include</p>
+        <ul class="partner-list">
+          <li>Government officials</li>
+          <li>Industry leaders</li>
+          <li>Civil society leaders</li>
+          <li>Community leaders</li>
+          <li>Social innovators</li>
+        </ul>
+      </div>
+      </div>
+      <figure class="banner">
+        <img src="images/capacity.avif" alt="A woman planting seedlings in a field" width="1600" height="800" loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+  <section class="objectives" id="objectives">
+    <div class="wrap">
+      <h2>What we set out to do</h2>
+      <ul class="obj-list">
+        <li>Promote tree planting for carbon credit and income generation, energy conservation using modern technologies, and environmental sustainability.</li>
+        <li>Offer entrepreneurship training programmes at the grassroots level.</li>
+        <li>Promote agri-business using modern technologies through a whole value chain approach.</li>
+        <li>Offer training programmes to alleviate poverty at the grassroots level.</li>
+        <li>Promote good corporate governance, environmental sustainability and good organisation culture in the public and private sectors.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="culture" id="culture">
+    <div class="wrap culture-grid">
+      <div>
+        <h2>A culture built on trust and respect</h2>
+        <p>Diversity, equity and inclusion are at the heart of our work environment and help advance our mission. Diversity of ideas, identities, perspectives and backgrounds is vital to who we are and what we do.</p>
+        <p>We seek people who embrace these values and will help reinforce them. Teams across the communities we serve frequently collaborate and support each other in building a better future for all of us.</p>
+        <ul class="values" aria-label="Our working culture">
+          <li>Collaborative</li>
+          <li>Creative</li>
+          <li>Entrepreneurial</li>
+          <li>Trust</li>
+          <li>Respect</li>
+        </ul>
+      </div>
+      <p class="pull">By strengthening local engagement, we equip citizens to combat climate change and inspire the next generation of climate leaders.</p>
+    </div>
+  </section>
+
+  <section class="team" id="team">
+    <div class="wrap">
+      <div class="team-head">
+        <h2>Our key officials</h2>
+      </div>
+      <ul class="roster">
+        <li class="lead-role"><span class="person">Breanna Gakenia Muriu</span><span class="role">Chairperson</span></li>
+        <li><span class="person">James Njane</span><span class="role">Secretary and Country Director</span></li>
+        <li><span class="person">Ndegwa Muiruri</span><span class="role">Honorary Treasurer</span></li>
+        <li><span class="person">Nduta Njoroge</span><span class="role">Member</span></li>
+        <li><span class="person">Ryan Mundia Warui</span><span class="role">Member</span></li>
+      </ul>
+      <p class="team-note">We intend to bring experienced experts onto our Board of Trustees.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <h2>Talk to ASEF</h2>
+        <p class="lead" style="color: var(--band-muted);">Partner with us, support a programme, or ask how we work. Call or visit our registered office in Nairobi.</p>
+        <div class="phones">
+          <a class="btn" href="tel:+254722100120">Call 0722 100 120</a>
+          <a class="btn alt" href="tel:+254732240000">Call 0732 240 000</a>
+        </div>
+      </div>
+      <div>
+        <span class="label">Registered office</span>
+        <address>
+          Africa Social Entrepreneurs Foundation (ASEF)<br>
+          3rd Floor, Park Place<br>
+          Limuru Road<br>
+          P.O. Box 881-00618<br>
+          Nairobi
+        </address>
+        <span class="label">Cellphone</span>
+        <p style="margin:0;">0722 100 120 / 0732 240 000</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; <span id="year">2026</span> Africa Social Entrepreneurs Foundation (ASEF). All rights reserved.</p>
+    <button class="theme-toggle" id="themeToggle" type="button">Switch theme</button>
+    <p class="credits">Photos from <a href="https://unsplash.com">Unsplash</a>: Richard Nyoni, Annie Spratt, Eyoel Kahssay, Emmanuel Ikwuegbu, Fatima Yusuf, Ali Mkumbwa and daniel kawed.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
